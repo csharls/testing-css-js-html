@@ -22,11 +22,11 @@ body {
   align-items: center;
 }
 
-.main-title{
+.main-title {
   font-family: sans-serif;
 }
 
-#product-form{
+#product-form {
   width: 600px;
   background-color: #ddd;
   margin-bottom: 20px;
@@ -36,20 +36,25 @@ body {
   padding: 50px;
   display: flex;
   flex-direction: column;
- margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .form-group {
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
+  flex-wrap: nowrap;
 }
 
+.form-group label {
+  width: 100px;
+}
 .form-group input {
   width: 100%;
+
 }
 
-#submit-btn{
+#submit-btn {
   margin: 0 auto;
   border: 0;
   background-color: #333;
@@ -60,16 +65,19 @@ body {
 }
 
 #products-table {
-  border: 0;
+  border-collapse: collapse;
 }
 
-#products-table thead{
+
+#products-table thead {
   background-color: #000;
   color: #ddd;
 }
+
 #products-table td {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 10px;
   text-align: center;
 
 }
