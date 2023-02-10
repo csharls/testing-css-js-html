@@ -20,5 +20,5 @@ Design:
 - You can pick whatever colors you want.
 - Hover over effects are a plus but not necesary.
 
-jonathan.juarez@jdoutstanding.com
+
 
