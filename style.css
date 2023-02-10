@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title{
+  font-family: sans-serif;
+}
+
+#product-form{
+  width: 600px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+  border: 1px sold grey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #000;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+ margin-bottom: 60px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+}
+
+#submit-btn{
+  margin: 0 auto;
+  border: 0;
+  background-color: #333;
+  color: #eee;
+  height: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#products-table {
+  border: 0;
+}
+
+#products-table thead{
+  background-color: #000;
+  color: #ddd;
+}
+#products-table td {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+
+}
+
+.btn-delete {
+  background-color: #e03838;
+  color: #ddd;
+  border: 0;
+  padding: 5px 10px;
+}
+
+
+/* Your Styles */
